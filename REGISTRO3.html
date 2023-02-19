@@ -1,0 +1,42 @@
+<DOCTYPEhtml>
+<html lang ="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name ="viewport" content ="ancho=ancho-del-dispositivo, escala-inicial=1.0">
+  <title>Formulario Registro</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form" id="form">
+         <p class="form-titulo">Create Acount</p>
+         <div class="form-input myname">
+            <input type="text" id="myname" name="name" requiered minlength="4" maxlength="8" size="10">
+            <label for="myname">Nombre</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input email">
+            <input type="email" id="email">
+            <label for="email">Email</label>
+            <p class="mensajeError"></p>
+          </div>
+          <div class="form-input password">
+             <input type="password" id="password" name="password" requiered minlength="8">
+             <label for="password">Clave</label>
+             <p class="mensajeError"></p>
+          </div>
+          <div class="form-input repeatpassword">
+             <input type="password" id="repeatpassword" name="repeatpassword" requiered minlength="8">
+             <label for="repeatpassword">Confirme su Clave</label>
+             <p class="mensajeError"></p>
+          </div>
+          <div class="form-boton">
+              <input type="submit" value="ENVIAR">
+          </div>
+             <p class="mensajeCorrecto"></p>
+          </form>
+        </div>
+        <script src="js/form.js"></script>
+        </form>
+        </body>
+        </html>
